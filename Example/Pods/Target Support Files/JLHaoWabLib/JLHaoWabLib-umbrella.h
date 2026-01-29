@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "LViewController.h"
 
 FOUNDATION_EXPORT double JLHaoWabLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char JLHaoWabLibVersionString[];

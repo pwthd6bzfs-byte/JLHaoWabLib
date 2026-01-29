@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JLHaoWabLib'
-  s.version          = '0.1.0'
+  s.version          = '0.3.0'
   s.summary          = 'A short description of JLHaoWabLib.'
 
 # This description is used to generate tags and improve search results.
@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/percent/JLHaoWabLib'
+  s.homepage         = 'https://github.com/pwthd6bzfs-byte/JLHaoWabLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'percent' => '524269669@qq.com' }
-  s.source           = { :git => 'https://github.com/percent/JLHaoWabLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/pwthd6bzfs-byte/JLHaoWabLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'JLHaoWabLib/Classes/**/*'
   
@@ -38,5 +38,23 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking', '~> 4.0'
+  s.dependency 'YYKit', '1.0.9'
+  s.dependency 'RongCloudIM/IMLib', '~> 5.32.0'
+#  #融云IMKit(含会话列表页面，会话页面，输入工具栏)
+  s.dependency 'RongCloudOpenSource/IMKit','~> 5.32.0'
+  s.dependency 'AgoraRtcEngine_iOS', '~> 4.5.1'
+  s.dependency 'SVProgressHUD'
+  s.dependency 'Masonry'
+  
+  
+   
+  # 图片加载
+  s.dependency 'SDWebImage', '~>5.19.7'
+  s.dependency 'SVGAPlayer', '~>2.5.7'
+  s.dependency 'Protobuf', '= 3.22.1'
+  s.dependency 'JXCategoryView', '~>1.6.8'
+  s.dependency 'MJRefresh'
+
+
 end

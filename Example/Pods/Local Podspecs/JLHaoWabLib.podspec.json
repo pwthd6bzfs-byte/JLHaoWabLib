@@ -1,9 +1,9 @@
 {
   "name": "JLHaoWabLib",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "summary": "A short description of JLHaoWabLib.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/percent/JLHaoWabLib",
+  "homepage": "https://github.com/pwthd6bzfs-byte/JLHaoWabLib",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,43 @@
     "percent": "524269669@qq.com"
   },
   "source": {
-    "git": "https://github.com/percent/JLHaoWabLib.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/pwthd6bzfs-byte/JLHaoWabLib.git",
+    "tag": "0.3.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
-  "source_files": "JLHaoWabLib/Classes/**/*"
+  "source_files": "JLHaoWabLib/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 4.0"
+    ],
+    "YYKit": [
+      "1.0.9"
+    ],
+    "RongCloudIM/IMLib": [
+      "~> 5.32.0"
+    ],
+    "RongCloudOpenSource/IMKit": [
+      "~> 5.32.0"
+    ],
+    "AgoraRtcEngine_iOS": [
+      "~> 4.5.1"
+    ],
+    "SVProgressHUD": [],
+    "Masonry": [],
+    "SDWebImage": [
+      "~>5.19.7"
+    ],
+    "SVGAPlayer": [
+      "~>2.5.7"
+    ],
+    "Protobuf": [
+      "= 3.22.1"
+    ],
+    "JXCategoryView": [
+      "~>1.6.8"
+    ],
+    "MJRefresh": []
+  }
 }
