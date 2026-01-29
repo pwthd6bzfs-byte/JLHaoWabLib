@@ -1,0 +1,6 @@
+framework module Pods_JLHaoWabLib_Example {
+  umbrella header "Pods-JLHaoWabLib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

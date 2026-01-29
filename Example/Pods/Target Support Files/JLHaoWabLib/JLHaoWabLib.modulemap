@@ -1,0 +1,6 @@
+framework module JLHaoWabLib {
+  umbrella header "JLHaoWabLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - JLHaoWabLib (0.1.0)
+
+DEPENDENCIES:
+  - JLHaoWabLib (from `../`)
+
+EXTERNAL SOURCES:
+  JLHaoWabLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JLHaoWabLib: 5c49d0f56c852f2d06bb5d129fdcc42d89321571
+
+PODFILE CHECKSUM: fb7bd2f1ca92b244876333aea7b0f466c328c5d6
+
+COCOAPODS: 1.16.2
