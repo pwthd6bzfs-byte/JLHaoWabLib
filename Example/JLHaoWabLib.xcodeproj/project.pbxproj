@@ -42,7 +42,7 @@
 		203F226D48202FBD847B4B85 /* Pods_JLHaoWabLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLHaoWabLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4A5B23955155204907B026 /* Pods-JLHaoWabLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLHaoWabLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-JLHaoWabLib_Example/Pods-JLHaoWabLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		368756178A49A673F9408B4C /* Pods_JLHaoWabLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLHaoWabLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A67397F607119B948CA06D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4A67397F607119B948CA06D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JLHaoWabLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLHaoWabLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,9 +64,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		789E271AB3235CB2D0245A3B /* Pods-JLHaoWabLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLHaoWabLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JLHaoWabLib_Tests/Pods-JLHaoWabLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		798DF79269224F6A5630AF8D /* JLHaoWabLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JLHaoWabLib.podspec; path = ../JLHaoWabLib.podspec; sourceTree = "<group>"; };
+		798DF79269224F6A5630AF8D /* JLHaoWabLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JLHaoWabLib.podspec; path = ../JLHaoWabLib.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D3440488716B2BC6E81926B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D3440488716B2BC6E81926B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				789E271AB3235CB2D0245A3B /* Pods-JLHaoWabLib_Tests.debug.xcconfig */,
 				0C5153B4C4548EAB613A86A6 /* Pods-JLHaoWabLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = percent;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 622A26BXT2;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -304,7 +307,6 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JLHaoWabLib_Example/Pods-JLHaoWabLib_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/JLHaoWabLib/JLHaoWabLib.framework",
 				"${BUILT_PRODUCTS_DIR}/JXCategoryView/JXCategoryView.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
@@ -349,7 +351,6 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JLHaoWabLib.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JXCategoryView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
@@ -611,6 +612,7 @@
 			baseConfigurationReference = 2F4A5B23955155204907B026 /* Pods-JLHaoWabLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 622A26BXT2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JLHaoWabLib/JLHaoWabLib-Prefix.pch";
 				INFOPLIST_FILE = "JLHaoWabLib/JLHaoWabLib-Info.plist";
@@ -627,6 +629,7 @@
 			baseConfigurationReference = 071385A23405CB608305AAB7 /* Pods-JLHaoWabLib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 622A26BXT2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JLHaoWabLib/JLHaoWabLib-Prefix.pch";
 				INFOPLIST_FILE = "JLHaoWabLib/JLHaoWabLib-Info.plist";

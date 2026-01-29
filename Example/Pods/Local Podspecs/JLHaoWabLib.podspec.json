@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "13.0"
   },
-  "source_files": "JLHaoWabLib/Classes/**/*",
+  "frameworks": "UIKit",
   "dependencies": {
     "AFNetworking": [
       "~> 4.0"

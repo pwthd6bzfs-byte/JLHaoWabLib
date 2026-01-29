@@ -30,14 +30,16 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'JLHaoWabLib/Classes/**/*'
+#  s.source_files = 'JLHaoWabLib/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'JLHaoWabLib' => ['JLHaoWabLib/Assets/*.png']
-  # }
+#   s.resource_bundles = {
+#     'JLHaoWabLib' => ['JLHaoWabLib/Assets/*.png']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+#   s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
+
   s.dependency 'AFNetworking', '~> 4.0'
   s.dependency 'YYKit', '1.0.9'
   s.dependency 'RongCloudIM/IMLib', '~> 5.32.0'
